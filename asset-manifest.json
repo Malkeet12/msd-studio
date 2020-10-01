@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/msd-studio/static/css/main.d5c36521.chunk.css",
+    "main.js": "/msd-studio/static/js/main.b8ef9fb7.chunk.js",
+    "main.js.map": "/msd-studio/static/js/main.b8ef9fb7.chunk.js.map",
+    "runtime-main.js": "/msd-studio/static/js/runtime-main.b14bbe9f.js",
+    "runtime-main.js.map": "/msd-studio/static/js/runtime-main.b14bbe9f.js.map",
+    "static/js/2.d178206f.chunk.js": "/msd-studio/static/js/2.d178206f.chunk.js",
+    "static/js/2.d178206f.chunk.js.map": "/msd-studio/static/js/2.d178206f.chunk.js.map",
+    "index.html": "/msd-studio/index.html",
+    "precache-manifest.a07312c2d82b403284df8e5323e08e1b.js": "/msd-studio/precache-manifest.a07312c2d82b403284df8e5323e08e1b.js",
+    "service-worker.js": "/msd-studio/service-worker.js",
+    "static/css/main.d5c36521.chunk.css.map": "/msd-studio/static/css/main.d5c36521.chunk.css.map",
+    "static/js/2.d178206f.chunk.js.LICENSE.txt": "/msd-studio/static/js/2.d178206f.chunk.js.LICENSE.txt",
+    "static/media/digipaper.png": "/msd-studio/static/media/digipaper.9d39e4cb.png",
+    "static/media/get_it_on_google_play.png": "/msd-studio/static/media/get_it_on_google_play.db9b21a1.png",
+    "static/media/time_pass.png": "/msd-studio/static/media/time_pass.b829176d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b14bbe9f.js",
+    "static/js/2.d178206f.chunk.js",
+    "static/css/main.d5c36521.chunk.css",
+    "static/js/main.b8ef9fb7.chunk.js"
+  ]
+}
