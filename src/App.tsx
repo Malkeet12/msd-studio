@@ -9,7 +9,7 @@ interface IProps {}
 class App extends React.Component<IProps, {}> {
   public render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route exact={true} path={"/"} component={Home} />
         </Switch>
