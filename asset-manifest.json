@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/msd-studio/static/css/main.d5c36521.chunk.css",
+    "main.css": "/msd-studio/static/css/main.b561bddd.chunk.css",
     "main.js": "/msd-studio/static/js/main.6cac450a.chunk.js",
     "main.js.map": "/msd-studio/static/js/main.6cac450a.chunk.js.map",
     "runtime-main.js": "/msd-studio/static/js/runtime-main.b14bbe9f.js",
@@ -8,9 +8,9 @@
     "static/js/2.d178206f.chunk.js": "/msd-studio/static/js/2.d178206f.chunk.js",
     "static/js/2.d178206f.chunk.js.map": "/msd-studio/static/js/2.d178206f.chunk.js.map",
     "index.html": "/msd-studio/index.html",
-    "precache-manifest.28640309e5ffab973ba869ee359500f7.js": "/msd-studio/precache-manifest.28640309e5ffab973ba869ee359500f7.js",
+    "precache-manifest.b38ecb7b0653fdcb439245cfd732c506.js": "/msd-studio/precache-manifest.b38ecb7b0653fdcb439245cfd732c506.js",
     "service-worker.js": "/msd-studio/service-worker.js",
-    "static/css/main.d5c36521.chunk.css.map": "/msd-studio/static/css/main.d5c36521.chunk.css.map",
+    "static/css/main.b561bddd.chunk.css.map": "/msd-studio/static/css/main.b561bddd.chunk.css.map",
     "static/js/2.d178206f.chunk.js.LICENSE.txt": "/msd-studio/static/js/2.d178206f.chunk.js.LICENSE.txt",
     "static/media/digipaper.png": "/msd-studio/static/media/digipaper.9d39e4cb.png",
     "static/media/get_it_on_google_play.png": "/msd-studio/static/media/get_it_on_google_play.db9b21a1.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.b14bbe9f.js",
     "static/js/2.d178206f.chunk.js",
-    "static/css/main.d5c36521.chunk.css",
+    "static/css/main.b561bddd.chunk.css",
     "static/js/main.6cac450a.chunk.js"
   ]
 }
