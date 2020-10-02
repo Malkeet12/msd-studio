@@ -5,7 +5,7 @@ export const AppsList: any = [
   {
     name: "Time Pass",
     description:
-      " The global phenomenon continues! Travel to a new city every month with Jake, Tricky and their roster of friends from all around the world. Escape the grumpy guard, avoid oncoming trains and collect special hunt tokens in one of the best endless runners of all time.",
+      " The global phenomenon continues! Explore new decks every month with your friends from all around the world. Escape the grumpy guard, tackle oncoming question and try to win every time you participate in a game, send stickers, choose the hero that defines you and continue the endless journey.",
     image: TimePassIcon,
     availableOnIos: true,
     playStoreLink:
