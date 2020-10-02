@@ -10,7 +10,7 @@ function MyApp(
   index: number
 ) {
   return (
-    <div className={`app index-${index}`}>
+    <div className={`app index-${index}`} key={index}>
       <img className="app-image" src={app.image} />
       <div className="app-desc">
         <div className="app-name">{app.name}</div>
