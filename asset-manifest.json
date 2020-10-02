@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/msd-studio/static/css/main.d5c36521.chunk.css",
-    "main.js": "/msd-studio/static/js/main.099c125c.chunk.js",
-    "main.js.map": "/msd-studio/static/js/main.099c125c.chunk.js.map",
+    "main.js": "/msd-studio/static/js/main.fc9d2936.chunk.js",
+    "main.js.map": "/msd-studio/static/js/main.fc9d2936.chunk.js.map",
     "runtime-main.js": "/msd-studio/static/js/runtime-main.b1a4d61a.js",
     "runtime-main.js.map": "/msd-studio/static/js/runtime-main.b1a4d61a.js.map",
     "static/js/2.d1771525.chunk.js": "/msd-studio/static/js/2.d1771525.chunk.js",
     "static/js/2.d1771525.chunk.js.map": "/msd-studio/static/js/2.d1771525.chunk.js.map",
     "index.html": "/msd-studio/index.html",
-    "precache-manifest.b921b02084d61c43b6e4a1c151fbd933.js": "/msd-studio/precache-manifest.b921b02084d61c43b6e4a1c151fbd933.js",
+    "precache-manifest.be0efb9c2106508ca8d17ccd5f8c2895.js": "/msd-studio/precache-manifest.be0efb9c2106508ca8d17ccd5f8c2895.js",
     "service-worker.js": "/msd-studio/service-worker.js",
     "static/css/main.d5c36521.chunk.css.map": "/msd-studio/static/css/main.d5c36521.chunk.css.map",
     "static/js/2.d1771525.chunk.js.LICENSE.txt": "/msd-studio/static/js/2.d1771525.chunk.js.LICENSE.txt",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.b1a4d61a.js",
     "static/js/2.d1771525.chunk.js",
     "static/css/main.d5c36521.chunk.css",
-    "static/js/main.099c125c.chunk.js"
+    "static/js/main.fc9d2936.chunk.js"
   ]
 }
