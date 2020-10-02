@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/msd-studio/static/css/main.e98476b8.chunk.css",
-    "main.js": "/msd-studio/static/js/main.a71c0eb0.chunk.js",
-    "main.js.map": "/msd-studio/static/js/main.a71c0eb0.chunk.js.map",
-    "runtime-main.js": "/msd-studio/static/js/runtime-main.b14bbe9f.js",
-    "runtime-main.js.map": "/msd-studio/static/js/runtime-main.b14bbe9f.js.map",
-    "static/js/2.e7e60f93.chunk.js": "/msd-studio/static/js/2.e7e60f93.chunk.js",
-    "static/js/2.e7e60f93.chunk.js.map": "/msd-studio/static/js/2.e7e60f93.chunk.js.map",
-    "index.html": "/msd-studio/index.html",
-    "precache-manifest.2cc30c0caa9b225d42f2cbc209215327.js": "/msd-studio/precache-manifest.2cc30c0caa9b225d42f2cbc209215327.js",
-    "service-worker.js": "/msd-studio/service-worker.js",
-    "static/css/main.e98476b8.chunk.css.map": "/msd-studio/static/css/main.e98476b8.chunk.css.map",
-    "static/js/2.e7e60f93.chunk.js.LICENSE.txt": "/msd-studio/static/js/2.e7e60f93.chunk.js.LICENSE.txt",
-    "static/media/digipaper.png": "/msd-studio/static/media/digipaper.9d39e4cb.png",
-    "static/media/get_it_on_google_play.png": "/msd-studio/static/media/get_it_on_google_play.db9b21a1.png",
-    "static/media/time_pass.png": "/msd-studio/static/media/time_pass.b829176d.png"
+    "main.css": "/static/css/main.e98476b8.chunk.css",
+    "main.js": "/static/js/main.2ea9ed82.chunk.js",
+    "main.js.map": "/static/js/main.2ea9ed82.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.42df0f66.js",
+    "runtime-main.js.map": "/static/js/runtime-main.42df0f66.js.map",
+    "static/js/2.e7e60f93.chunk.js": "/static/js/2.e7e60f93.chunk.js",
+    "static/js/2.e7e60f93.chunk.js.map": "/static/js/2.e7e60f93.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.56f625048e06a6f7f08fc845ff506ba4.js": "/precache-manifest.56f625048e06a6f7f08fc845ff506ba4.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.e98476b8.chunk.css.map": "/static/css/main.e98476b8.chunk.css.map",
+    "static/js/2.e7e60f93.chunk.js.LICENSE.txt": "/static/js/2.e7e60f93.chunk.js.LICENSE.txt",
+    "static/media/digipaper.png": "/static/media/digipaper.9d39e4cb.png",
+    "static/media/get_it_on_google_play.png": "/static/media/get_it_on_google_play.db9b21a1.png",
+    "static/media/time_pass.png": "/static/media/time_pass.b829176d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b14bbe9f.js",
+    "static/js/runtime-main.42df0f66.js",
     "static/js/2.e7e60f93.chunk.js",
     "static/css/main.e98476b8.chunk.css",
-    "static/js/main.a71c0eb0.chunk.js"
+    "static/js/main.2ea9ed82.chunk.js"
   ]
 }
