@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "07b4c2ff3cd2851297e7d2b75fc318b4",
+    "revision": "0e641051d412695454dc39c934105f23",
     "url": "/msd-studio/index.html"
   },
   {
-    "revision": "1ad87f08e96227280af7",
+    "revision": "268049996ae0ec759fc8",
     "url": "/msd-studio/static/css/main.d5c36521.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/msd-studio/static/js/2.d178206f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1ad87f08e96227280af7",
-    "url": "/msd-studio/static/js/main.f6fd1432.chunk.js"
+    "revision": "268049996ae0ec759fc8",
+    "url": "/msd-studio/static/js/main.6cac450a.chunk.js"
   },
   {
     "revision": "b0b81a9fd8133a122d6a",
