@@ -1,3 +1,4 @@
 export enum RouterPathEnum {
-  app = "app/:appId",
+  home = "/home",
+  time_pass_policy = "/time-pass/privacy-policy",
 }

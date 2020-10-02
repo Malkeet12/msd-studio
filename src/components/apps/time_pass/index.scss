@@ -1,0 +1,19 @@
+.policy-container {
+  display: flex;
+  justify-self: center;
+
+  .time-pass-privacy-policy {
+    margin: 20px;
+    h2 {
+      font-size: 24px;
+    }
+    h1 {
+      font-size: 32px;
+    }
+    p,
+    ul,
+    li {
+      font-size: 16px;
+    }
+  }
+}
