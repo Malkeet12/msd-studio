@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3ba9c2c92154ff74a979c991f2ecc1cf",
+    "revision": "07b4c2ff3cd2851297e7d2b75fc318b4",
     "url": "/msd-studio/index.html"
   },
   {
-    "revision": "8c7e2422006017e76bbe",
+    "revision": "1ad87f08e96227280af7",
     "url": "/msd-studio/static/css/main.d5c36521.chunk.css"
   },
   {
-    "revision": "f99a8ad6b465fbe39641",
-    "url": "/msd-studio/static/js/2.d1771525.chunk.js"
+    "revision": "699373565bc13c16758d",
+    "url": "/msd-studio/static/js/2.d178206f.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/msd-studio/static/js/2.d1771525.chunk.js.LICENSE.txt"
+    "url": "/msd-studio/static/js/2.d178206f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8c7e2422006017e76bbe",
-    "url": "/msd-studio/static/js/main.fc9d2936.chunk.js"
+    "revision": "1ad87f08e96227280af7",
+    "url": "/msd-studio/static/js/main.f6fd1432.chunk.js"
   },
   {
-    "revision": "82cec965b2a39854b5f9",
-    "url": "/msd-studio/static/js/runtime-main.b1a4d61a.js"
+    "revision": "b0b81a9fd8133a122d6a",
+    "url": "/msd-studio/static/js/runtime-main.b14bbe9f.js"
   },
   {
     "revision": "9d39e4cbb62062297fc74504f9674165",
