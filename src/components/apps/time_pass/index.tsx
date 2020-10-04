@@ -51,14 +51,6 @@ class TimePassPrivacyPolicy extends React.Component {
             feel free to contact us.
           </p>
           <p>This policy is effective as of 2 October 2020.</p>
-          <p>
-            <a
-              href="https://getterms.io"
-              title="Generate a free privacy policy"
-            >
-              Privacy Policy created with GetTerms.
-            </a>
-          </p>
         </div>
       </div>
     );
