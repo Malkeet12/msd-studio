@@ -1,30 +1,40 @@
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import "styles/index.scss";
-import { RouterPathEnum } from "constants/paths";
-import Home from "components/home";
-import TimePassPrivacyPolicy from "components/apps/time_pass";
+import BurgerMenu from "./shared/burger_menu";
+import { RouterPathEnum } from "./constants/paths";
+import Home from "./components/home";
+import TimePassPrivacyPolicy from "./components/apps/time_pass";
+import AboutUs from "./components/about_us";
 
-interface IProps {}
-
-class App extends React.Component<IProps, {}> {
-  public render() {
+class App extends React.Component {
+  render() {
     return (
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
-        <Switch>
-          <Route exact={true} path={"/"} component={Home} />
-        </Switch>
-        <Switch>
-          <Route exact={true} path={RouterPathEnum.home} component={Home} />
-        </Switch>
-        <Switch>
-          <Route
-            exact={true}
-            path={RouterPathEnum.time_pass_policy}
-            component={TimePassPrivacyPolicy}
-          />
-        </Switch>
-      </BrowserRouter>
+      <div className="main-app">
+        <BurgerMenu />
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
+          <Switch>
+            <Route exact={true} path={"/"} component={Home} />
+          </Switch>
+          <Switch>
+            <Route
+              exact={true}
+              path={RouterPathEnum.ABOUT_US}
+              component={AboutUs}
+            />
+          </Switch>
+          <Switch>
+            <Route exact={true} path={RouterPathEnum.HOME} component={Home} />
+          </Switch>
+          <Switch>
+            <Route
+              exact={true}
+              path={RouterPathEnum.TIME_PASS_POLICY}
+              component={TimePassPrivacyPolicy}
+            />
+          </Switch>
+        </BrowserRouter>
+      </div>
     );
   }
 }

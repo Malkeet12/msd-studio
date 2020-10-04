@@ -1,0 +1,75 @@
+@import "src/styles/mixins.scss";
+
+.about-us {
+  .dev {
+    background: #fff;
+    padding-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .dev-image {
+      width: 50%;
+      border-radius: 5rem;
+      max-width: 500px;
+      position: relative;
+      top: 50px;
+      box-sizing: border-box;
+    }
+    .dev-desc {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 30px;
+      height: 100%;
+      .dev-name {
+        //   font-family: Alegreya Sans, MillerDisplay, Didot, Baskerville,
+        //     sans-serif;
+        font-size: 3rem;
+        line-height: 2.4;
+        letter-spacing: 0.13rem;
+        font-weight: 800;
+      }
+      .dev-info {
+        font-family: Lato, Avenir, aktiv-grotesk, sans-serif;
+        font-size: 2.4rem;
+        line-height: 3rem;
+        letter-spacing: 0.06rem;
+        font-weight: 300;
+        transition-delay: 160ms;
+        text-align: center;
+        max-width: 64rem;
+      }
+
+      .store-links {
+        display: flex;
+        margin-top: 6rem;
+        .dev-link {
+          height: 6rem;
+          margin-top: -10px;
+          margin-right: 10px;
+        }
+      }
+    }
+    @media only screen and (min-width: 801px) {
+      &:nth-child(even) {
+        flex-direction: row-reverse;
+      }
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .dev {
+      flex-direction: column;
+      .dev-desc {
+        margin-top: 60px;
+        .dev-info {
+          font-size: 1.8rem;
+        }
+      }
+      .dev-image {
+        border-radius: 2rem;
+      }
+    }
+  }
+}

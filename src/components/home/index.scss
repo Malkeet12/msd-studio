@@ -1,57 +1,5 @@
 @import "src/styles/mixins.scss";
 .home {
-  .bg-layer {
-    background-color: rgb(88, 198, 255);
-    position: absolute;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-  }
-
-  .page-1 {
-    color: #fff;
-    @include center-aligned;
-    height: 100vh;
-    flex-direction: column;
-    .title {
-      font-family: Lato, Avenir, aktiv-grotesk, sans-serif;
-      font-size: 5rem;
-      line-height: 1.8em;
-      letter-spacing: 0.04em;
-      font-weight: bold;
-    }
-    .description {
-      font-family: Lato, Avenir, aktiv-grotesk, sans-serif;
-      font-size: 2.5rem;
-      line-height: 3.3rem;
-      letter-spacing: 0.04em;
-      font-weight: 300;
-      transition-delay: 160ms;
-      text-align: center;
-      max-width: 70rem;
-      padding: 0 30px;
-      transition: opacity 0.5s linear,
-        -webkit-transform 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
-      transition: transform 0.5s cubic-bezier(0.075, 0.82, 0.165, 1),
-        opacity 0.5s linear;
-      transition: transform 0.5s cubic-bezier(0.075, 0.82, 0.165, 1),
-        opacity 0.5s linear,
-        -webkit-transform 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
-    }
-  }
-  .down-arrow {
-    @include center-aligned;
-    svg {
-      border: 2px solid white;
-      border-radius: 50%;
-
-      position: absolute;
-      bottom: 45px;
-    }
-  }
   .main {
     .app {
       background: #fff;

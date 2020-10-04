@@ -1,4 +1,5 @@
 export enum RouterPathEnum {
-  home = "/home",
-  time_pass_policy = "/time-pass/privacy-policy",
+  HOME = "/home",
+  ABOUT_US = "/about-us",
+  TIME_PASS_POLICY = "/time-pass/privacy-policy",
 }
