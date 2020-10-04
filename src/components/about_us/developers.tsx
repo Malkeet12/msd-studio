@@ -1,8 +1,5 @@
-import GetItOnAppStore from "images/get_it_on_app_store";
-import PlayStoreIcon from "images/get_it_on_google_play.png";
 import { IDev } from "models/dev";
 import React from "react";
-import If from "shared/if";
 
 function Developer(
   dev: IDev,
