@@ -6,6 +6,7 @@ import { RouterPathEnum } from "./constants/paths";
 import Home from "./components/home";
 import TimePassPrivacyPolicy from "./components/apps/time_pass";
 import AboutUs from "./components/about_us";
+import DigipaperPrivacyPolicy from "./components/apps/digipaper";
 
 class App extends React.Component {
   render() {
@@ -31,6 +32,13 @@ class App extends React.Component {
               exact={true}
               path={RouterPathEnum.TIME_PASS_POLICY}
               component={TimePassPrivacyPolicy}
+            />
+          </Switch>
+          <Switch>
+            <Route
+              exact={true}
+              path={RouterPathEnum.DIGIPAPER_POLICY}
+              component={DigipaperPrivacyPolicy}
             />
           </Switch>
         </BrowserRouter>

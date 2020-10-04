@@ -71,7 +71,7 @@ export const Menu = ({ open }) => {
         About us
       </a>
 
-      <a href="/">
+      <a href="mailto:developer@eagertools.com">
         <span role="img" aria-label="contact">
           📩
         </span>

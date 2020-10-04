@@ -35,6 +35,9 @@ html {
           line-height: 1.8em;
           letter-spacing: 0.04em;
           font-weight: bold;
+          .logo {
+            height: 200px;
+          }
         }
         .description {
           font-family: Lato, Avenir, aktiv-grotesk, sans-serif;

@@ -18,8 +18,8 @@ class AboutUs extends React.Component {
           <p className="description">
             We’re ambitious, passionate and good-natured professional
             developers, committed to developing the most entertaining and
-            rewarding games for iOS, Android and Windows based mobile devices,
-            that appeal to the broadest audience across the entire globe.
+            rewarding games for iOS and Android mobile devices, that appeal to
+            the broadest audience across the entire globe.
           </p>
         </div>
         <div className="down-arrow" onClick={this._scroll}>
