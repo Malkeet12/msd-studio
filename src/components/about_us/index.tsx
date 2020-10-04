@@ -1,11 +1,7 @@
 import React from "react";
 import ArrowDown from "images/arrow_down";
-import TimePassIcon from "images/time_pass.png";
-import DigiPaperIcon from "images/digipaper.png";
 import "./index.scss";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from "react-responsive-carousel";
-import { DevelopersList } from "../../constants/developersList";
+import { DevelopersList } from "constants/developersList";
 import Developer from "./developers";
 
 class AboutUs extends React.Component {

@@ -75,5 +75,17 @@ html {
         }
       }
     }
+
+    .page-1 {
+      .title {
+        font-size: 3rem !important;
+        line-height: 1.4em !important;
+      }
+      .description {
+        font-size: 2rem !important;
+        line-height: 2.3rem !important;
+        letter-spacing: 0.03em !important;
+      }
+    }
   }
 }
