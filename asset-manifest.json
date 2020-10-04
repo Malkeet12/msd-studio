@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.e98476b8.chunk.css",
-    "main.js": "/static/js/main.bcd77094.chunk.js",
-    "main.js.map": "/static/js/main.bcd77094.chunk.js.map",
+    "main.css": "/static/css/main.c726bcf7.chunk.css",
+    "main.js": "/static/js/main.5fe1042a.chunk.js",
+    "main.js.map": "/static/js/main.5fe1042a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.42df0f66.js",
     "runtime-main.js.map": "/static/js/runtime-main.42df0f66.js.map",
-    "static/js/2.33b9a665.chunk.js": "/static/js/2.33b9a665.chunk.js",
-    "static/js/2.33b9a665.chunk.js.map": "/static/js/2.33b9a665.chunk.js.map",
+    "static/js/2.e7e60f93.chunk.js": "/static/js/2.e7e60f93.chunk.js",
+    "static/js/2.e7e60f93.chunk.js.map": "/static/js/2.e7e60f93.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.789f8f89deeca414f815ab5a5ce1dbf7.js": "/precache-manifest.789f8f89deeca414f815ab5a5ce1dbf7.js",
+    "precache-manifest.9ee49c00508508e3bff15248171b21e1.js": "/precache-manifest.9ee49c00508508e3bff15248171b21e1.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.e98476b8.chunk.css.map": "/static/css/main.e98476b8.chunk.css.map",
-    "static/js/2.33b9a665.chunk.js.LICENSE.txt": "/static/js/2.33b9a665.chunk.js.LICENSE.txt",
+    "static/css/main.c726bcf7.chunk.css.map": "/static/css/main.c726bcf7.chunk.css.map",
+    "static/js/2.e7e60f93.chunk.js.LICENSE.txt": "/static/js/2.e7e60f93.chunk.js.LICENSE.txt",
     "static/media/digipaper.png": "/static/media/digipaper.9d39e4cb.png",
     "static/media/get_it_on_google_play.png": "/static/media/get_it_on_google_play.db9b21a1.png",
     "static/media/time_pass.png": "/static/media/time_pass.b829176d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.42df0f66.js",
-    "static/js/2.33b9a665.chunk.js",
-    "static/css/main.e98476b8.chunk.css",
-    "static/js/main.bcd77094.chunk.js"
+    "static/js/2.e7e60f93.chunk.js",
+    "static/css/main.c726bcf7.chunk.css",
+    "static/js/main.5fe1042a.chunk.js"
   ]
 }
