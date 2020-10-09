@@ -9,7 +9,7 @@ export const AppsList: any = [
     image: TimePassIcon,
     availableOnIos: true,
     playStoreLink:
-      "https://play.google.com/store/apps/details?id=msd.image_scanner&hl=en_US",
+      "https://play.google.com/store/apps/details?id=msdstudio.timepass&hl=en",
     appStoreLink:
       "https://play.google.com/store/apps/details?id=msd.image_scanner&hl=en_US",
   },
