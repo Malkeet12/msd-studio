@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import { RouterPathEnum } from "constants/paths";
 import "./index.scss";
+import { Support } from "constants/support";
 
 function BurgerMenu() {
   const [open, setOpen] = useState(false);
@@ -76,7 +77,7 @@ export const Menu = ({ open }) => {
    <span>     About us</span>
       </a>
 
-      <a href="mailto:developer@eagertools.com">
+      <a href={Support.EMAIL}>
         <div role="img" aria-label="contact">
           📩
         </div>

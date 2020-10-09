@@ -1,4 +1,4 @@
-import TimePassIcon from "images/time_pass.png";
+import TimePassIcon from "images/timePassIcon.png";
 import DigiPaperIcon from "images/digipaper.png";
 
 export const AppsList: any = [

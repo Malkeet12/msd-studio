@@ -1,5 +1,5 @@
-import GetItOnAppStore from "images/get_it_on_app_store";
-import PlayStoreIcon from "images/get_it_on_google_play.png";
+import GetItOnAppStore from "images/playStore";
+import PlayStoreIcon from "images/googlePlay.png";
 import { IApp } from "models/app";
 import React from "react";
 import If from "shared/if";

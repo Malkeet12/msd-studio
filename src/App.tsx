@@ -7,6 +7,7 @@ import Home from "./components/home";
 import TimePassPrivacyPolicy from "./components/apps/time_pass";
 import AboutUs from "./components/about_us";
 import DigipaperPrivacyPolicy from "./components/apps/digipaper";
+import Footer from "components/footer";
 
 class App extends React.Component {
   render() {
@@ -42,6 +43,7 @@ class App extends React.Component {
             />
           </Switch>
         </BrowserRouter>
+        <Footer />
       </div>
     );
   }

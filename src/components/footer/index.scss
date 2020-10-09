@@ -1,0 +1,39 @@
+@import "src/styles/mixins.scss";
+
+.footer {
+  box-sizing: border-box;
+  padding: 40px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #29333a;
+  min-height: 300px;
+  width: 100%;
+  .pages {
+    @include center-aligned;
+    flex-wrap: wrap;
+  }
+  .logo {
+    height: 100px;
+  }
+  .footer-link {
+    word-break: break-word;
+    border: 0;
+    margin: 0;
+    padding: 14px;
+    font-family: Lato, Avenir, aktiv-grotesk, sans-serif;
+    line-height: 2rem;
+    font-weight: 300;
+    display: block;
+    color: #808081;
+    font-size: 1.6rem;
+    letter-spacing: 0.06rem;
+    text-decoration: none;
+    @include center-aligned;
+    .nav-item {
+      padding-right: 10px;
+    }
+  }
+}
