@@ -31,7 +31,8 @@ class Home extends React.Component {
     return (
       <div className="page-1">
         <div className="title">
-          <img className="logo" src={Logo} />
+          <div className="msd">MSD</div>
+          <div className="studio">Studio</div>
         </div>
         <p className="description">
           We're a mobile apps studio in Gurgaon striving to craft meaningful

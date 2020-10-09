@@ -15,7 +15,7 @@ html {
       height: 100%;
 
       .bg-layer {
-        background-color: rgb(88, 198, 255);
+        // background-color: rgb(88, 198, 255);
         position: absolute;
         height: 100vh;
         top: 0;
@@ -25,7 +25,8 @@ html {
         z-index: -1;
       }
       .page-1 {
-        color: #fff;
+        color: darkslategray;
+        background-color: #000000e0;
         @include center-aligned;
         height: 100vh;
         flex-direction: column;
@@ -35,11 +36,25 @@ html {
           line-height: 1.8em;
           letter-spacing: 0.04em;
           font-weight: bold;
+          display: flex;
+          align-items: baseline;
           .logo {
             height: 200px;
           }
+          .msd {
+            color: cornflowerblue;
+            font-weight: bolder;
+            font-size: 9vw;
+          }
+          .studio {
+            padding-left: 7px;
+            font-weight: bolder;
+            color: rebeccapurple;
+            font-size: 5vw;
+          }
         }
         .description {
+          color: #ff0099;
           font-family: Lato, Avenir, aktiv-grotesk, sans-serif;
           font-size: 2.5rem;
           line-height: 3.3rem;
@@ -61,7 +76,7 @@ html {
       .down-arrow {
         @include center-aligned;
         svg {
-          border: 2px solid white;
+          border: 2px solid darkslategray;
           border-radius: 50%;
 
           position: absolute;

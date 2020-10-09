@@ -17,6 +17,7 @@ function BurgerMenu() {
 export default BurgerMenu;
 
 const StyledMenu = styled.nav`
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -24,7 +25,7 @@ const StyledMenu = styled.nav`
   transform: ${({ open }) => (open ? "translateX(0)" : "translateX(-100%)")};
   height: 100vh;
   text-align: left;
-  padding: 2rem;
+  padding: 6rem;
   position: absolute;
   top: 0;
   left: 0;
@@ -35,22 +36,26 @@ const StyledMenu = styled.nav`
   }
 
   a {
+    display: flex;
+    align-items: center;
     font-size: 2rem;
     text-transform: uppercase;
-    padding: 2rem 0;
+    
     font-weight: bold;
     letter-spacing: 0.5rem;
-    color: #0d0c1d;
+    color: #fff;
     text-decoration: none;
     transition: color 0.3s linear;
-
+    padding: 2rem 1rem 2rem 0;
     @media (max-width: 576px) {
       font-size: 1.5rem;
       text-align: center;
     }
-
+    span{
+      padding-left: 10px;
+    }
     &:hover {
-      color: #343078;
+      color: #7069ea;
     }
   }
 `;
@@ -59,23 +64,23 @@ export const Menu = ({ open }) => {
   return (
     <StyledMenu open={open}>
       <a href={RouterPathEnum.HOME}>
-        <span role="img" aria-label="home">
+        <div role="img" aria-label="home">
           🏡
-        </span>
-        Home
+        </div>
+        <span>Home</span>
       </a>
       <a href={RouterPathEnum.ABOUT_US}>
-        <span role="img" aria-label="about us">
+        <div role="img" aria-label="about us">
           💁🏻‍♂️
-        </span>
-        About us
+        </div>
+   <span>     About us</span>
       </a>
 
       <a href="mailto:developer@eagertools.com">
-        <span role="img" aria-label="contact">
+        <div role="img" aria-label="contact">
           📩
-        </span>
-        Contact
+        </div>
+     <span>   Contact</span>
       </a>
     </StyledMenu>
   );
@@ -84,7 +89,7 @@ export const Menu = ({ open }) => {
 const StyledBurger = styled.button`
   position: absolute;
   top: 5%;
-  left: 2rem;
+  left: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -103,7 +108,7 @@ const StyledBurger = styled.button`
   div {
     width: 2rem;
     height: 0.25rem;
-    background: ${({ open }) => (open ? "#0D0C1D" : "#EFFFFA")};
+    background: ${({ open }) => (open ? "#EFFFFA" : "#EFFFFA")};
     border-radius: 10px;
     transition: all 0.3s linear;
     position: relative;
