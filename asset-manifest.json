@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.d8274420.chunk.css",
-    "main.js": "/static/js/main.936b254d.chunk.js",
-    "main.js.map": "/static/js/main.936b254d.chunk.js.map",
+    "main.css": "/static/css/main.9e87a923.chunk.css",
+    "main.js": "/static/js/main.f2a6164d.chunk.js",
+    "main.js.map": "/static/js/main.f2a6164d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.42df0f66.js",
     "runtime-main.js.map": "/static/js/runtime-main.42df0f66.js.map",
-    "static/js/2.dbcce9fb.chunk.js": "/static/js/2.dbcce9fb.chunk.js",
-    "static/js/2.dbcce9fb.chunk.js.map": "/static/js/2.dbcce9fb.chunk.js.map",
+    "static/js/2.1402b717.chunk.js": "/static/js/2.1402b717.chunk.js",
+    "static/js/2.1402b717.chunk.js.map": "/static/js/2.1402b717.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c4e552e36f5505109d5e4dc03cd6ed28.js": "/precache-manifest.c4e552e36f5505109d5e4dc03cd6ed28.js",
+    "precache-manifest.059ba771869e05c3a5df10004e961c50.js": "/precache-manifest.059ba771869e05c3a5df10004e961c50.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.d8274420.chunk.css.map": "/static/css/main.d8274420.chunk.css.map",
-    "static/js/2.dbcce9fb.chunk.js.LICENSE.txt": "/static/js/2.dbcce9fb.chunk.js.LICENSE.txt",
+    "static/css/main.9e87a923.chunk.css.map": "/static/css/main.9e87a923.chunk.css.map",
+    "static/js/2.1402b717.chunk.js.LICENSE.txt": "/static/js/2.1402b717.chunk.js.LICENSE.txt",
     "static/media/digipaper.png": "/static/media/digipaper.9d39e4cb.png",
-    "static/media/get_it_on_google_play.png": "/static/media/get_it_on_google_play.db9b21a1.png",
+    "static/media/googlePlay.png": "/static/media/googlePlay.db9b21a1.png",
     "static/media/logo.jpg": "/static/media/logo.1326951d.jpg",
     "static/media/malkeet.jpg": "/static/media/malkeet.c3e38e38.jpg",
     "static/media/tavishi.jpeg": "/static/media/tavishi.9a4a2e3c.jpeg",
-    "static/media/time_pass.png": "/static/media/time_pass.b829176d.png"
+    "static/media/timePassIcon.png": "/static/media/timePassIcon.b829176d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.42df0f66.js",
-    "static/js/2.dbcce9fb.chunk.js",
-    "static/css/main.d8274420.chunk.css",
-    "static/js/main.936b254d.chunk.js"
+    "static/js/2.1402b717.chunk.js",
+    "static/css/main.9e87a923.chunk.css",
+    "static/js/main.f2a6164d.chunk.js"
   ]
 }
