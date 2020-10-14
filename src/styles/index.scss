@@ -59,6 +59,7 @@ html {
         }
       }
       .down-arrow {
+        cursor: pointer;
         @include center-aligned;
         svg {
           border: 2px solid white;
