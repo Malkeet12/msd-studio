@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.9e87a923.chunk.css",
+    "main.css": "/static/css/main.a4dee7c3.chunk.css",
     "main.js": "/static/js/main.f2a6164d.chunk.js",
     "main.js.map": "/static/js/main.f2a6164d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.42df0f66.js",
@@ -8,9 +8,9 @@
     "static/js/2.1402b717.chunk.js": "/static/js/2.1402b717.chunk.js",
     "static/js/2.1402b717.chunk.js.map": "/static/js/2.1402b717.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.059ba771869e05c3a5df10004e961c50.js": "/precache-manifest.059ba771869e05c3a5df10004e961c50.js",
+    "precache-manifest.c95ab52043cdebdd36cef95653d79774.js": "/precache-manifest.c95ab52043cdebdd36cef95653d79774.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.9e87a923.chunk.css.map": "/static/css/main.9e87a923.chunk.css.map",
+    "static/css/main.a4dee7c3.chunk.css.map": "/static/css/main.a4dee7c3.chunk.css.map",
     "static/js/2.1402b717.chunk.js.LICENSE.txt": "/static/js/2.1402b717.chunk.js.LICENSE.txt",
     "static/media/digipaper.png": "/static/media/digipaper.9d39e4cb.png",
     "static/media/googlePlay.png": "/static/media/googlePlay.db9b21a1.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.42df0f66.js",
     "static/js/2.1402b717.chunk.js",
-    "static/css/main.9e87a923.chunk.css",
+    "static/css/main.a4dee7c3.chunk.css",
     "static/js/main.f2a6164d.chunk.js"
   ]
 }
