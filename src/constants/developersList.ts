@@ -21,7 +21,7 @@ export const DevelopersList: any = [
       root in her presence.  She shows quiet intensity in the pursuit
       of getting anything right.
       `,
-    profile: `Tavishi holds a CS Degree from MNIT Allahabad and started her career as an Fullstack developer 2 years ago.`,
+    profile: `Tavishi holds a CS Degree from MNNIT Allahabad and started her career as an Fullstack developer 2 years ago.`,
     dp: tavishiDP,
   },
 ];
