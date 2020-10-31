@@ -11,7 +11,7 @@ export const AppsList: any = [
     playStoreLink:
       "https://play.google.com/store/apps/details?id=msdstudio.timepass&hl=en",
     appStoreLink:
-      "https://play.google.com/store/apps/details?id=msd.image_scanner&hl=en_US",
+      "https://apps.apple.com/us/app/time-pass-fun-begins/id1534916469",
   },
   {
     name: "digipaper",
