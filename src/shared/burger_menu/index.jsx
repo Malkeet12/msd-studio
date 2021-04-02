@@ -70,18 +70,24 @@ export const Menu = ({ open }) => {
         </div>
         <span>Home</span>
       </a>
+      <a href={RouterPathEnum.DRUM_KIT}>
+        <div role="img" aria-label="home">
+          ▶️
+        </div>
+        <span>Playground </span>
+      </a>
       <a href={RouterPathEnum.ABOUT_US}>
         <div role="img" aria-label="about us">
           💁🏻‍♂️
         </div>
-   <span>     About us</span>
+        <span>     About us</span>
       </a>
 
       <a href={Support.EMAIL}>
         <div role="img" aria-label="contact">
           📩
         </div>
-     <span>   Contact</span>
+        <span>   Contact</span>
       </a>
     </StyledMenu>
   );
