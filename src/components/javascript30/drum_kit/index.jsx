@@ -19,17 +19,21 @@ class DrumKit extends React.Component {
       key.addEventListener("transitionend", this.removeTransition)
     );
 
-    window.addEventListener("keydown", this.playSound);
+    window.addEventListener("keydown", (event) => this.playSound(event.keyCode));
   }
-  playSound(event) {
-    const audio = document.querySelector(`audio[data-key='${event.keyCode}']`);
+  playSound(keyCode) {
+    const audio = document.querySelector(`audio[data-key='${keyCode}']`);
     if (!audio) return
-    const key = document.querySelector(`.key[data-key='${event.keyCode}']`);
+    const key = document.querySelector(`.key[data-key='${keyCode}']`);
     audio.currentTime = 0;
     audio.play();
     key.classList.add("playing");
   }
 
+  playSoundOnTouch = (event) => {
+    const keyCode = event.target.parentElement.getAttribute('data-key')
+    this.playSound(keyCode)
+  }
   removeTransition(e) {
     if (e.propertyName !== "transform") return; // skipping extra transitions
     e.target.classList.remove("playing");
@@ -38,39 +42,39 @@ class DrumKit extends React.Component {
     return (
       <div className="drum-kit">
         <div className="keys">
-          <div data-key="65" className="key">
+          <div data-key="65" onClick={this.playSoundOnTouch} className="key">
             <kbd>A</kbd>
             <span className="sound">clap</span>
           </div>
-          <div data-key="83" className="key">
+          <div data-key="83" onClick={this.playSoundOnTouch} className="key">
             <kbd>S</kbd>
             <span className="sound">hihat</span>
           </div>
-          <div data-key="68" className="key">
+          <div data-key="68" onClick={this.playSoundOnTouch} className="key">
             <kbd>D</kbd>
             <span className="sound">kick</span>
           </div>
-          <div data-key="70" className="key">
+          <div data-key="70" onClick={this.playSoundOnTouch} className="key">
             <kbd>F</kbd>
             <span className="sound">openhat</span>
           </div>
-          <div data-key="71" className="key">
+          <div data-key="71" onClick={this.playSoundOnTouch} className="key">
             <kbd>G</kbd>
             <span className="sound">boom</span>
           </div>
-          <div data-key="72" className="key">
+          <div data-key="72" onClick={this.playSoundOnTouch} className="key">
             <kbd>H</kbd>
             <span className="sound">ride</span>
           </div>
-          <div data-key="74" className="key">
+          <div data-key="74" onClick={this.playSoundOnTouch} className="key">
             <kbd>J</kbd>
             <span className="sound">snare</span>
           </div>
-          <div data-key="75" className="key">
+          <div data-key="75" onClick={this.playSoundOnTouch} className="key">
             <kbd>K</kbd>
             <span className="sound">tom</span>
           </div>
-          <div data-key="76" className="key">
+          <div data-key="76" onClick={this.playSoundOnTouch} className="key">
             <kbd>L</kbd>
             <span className="sound">tink</span>
           </div>
