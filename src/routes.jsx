@@ -6,6 +6,7 @@ import TimePassPrivacyPolicy from "./components/apps/time_pass";
 import AboutUs from "./components/about_us";
 import DigipaperPrivacyPolicy from "./components/apps/digipaper";
 import DrumKit from 'components/javascript30/drum_kit';
+import Sketch from 'components/javascript30/sketch';
 
 
 class Routes extends Component {
@@ -51,6 +52,15 @@ class Routes extends Component {
                         component={DrumKit}
                     />
                 </Switch>
+
+                <Switch>
+                    <Route
+                        exact={true}
+                        path={RouterPathEnum.SKETCH}
+                        component={Sketch}
+                    />
+                </Switch>
+
             </Fragment>
         );
     }

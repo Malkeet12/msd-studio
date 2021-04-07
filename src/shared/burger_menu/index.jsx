@@ -76,6 +76,12 @@ export const Menu = ({ open }) => {
         </div>
         <span>Playground </span>
       </a>
+      <a href={RouterPathEnum.SKETCH}>
+        <div role="img" aria-label="home">
+          ✍️
+        </div>
+        <span>Sketch </span>
+      </a>
       <a href={RouterPathEnum.ABOUT_US}>
         <div role="img" aria-label="about us">
           💁🏻‍♂️

@@ -28,6 +28,18 @@ class Footer extends React.Component {
             </div>
             About us
           </a>
+          <a className="footer-link" href={RouterPathEnum.DRUM_KIT}>
+            <div className="nav-item" role="img" aria-label="about us">
+              ▶️
+            </div>
+            Playground
+          </a>
+          <a className="footer-link" href={RouterPathEnum.SKETCH}>
+            <div className="nav-item" role="img" aria-label="about us">
+              ✍️
+            </div>
+            Sketch
+          </a>
           <a className="footer-link" href={Support.EMAIL}>
             <div className="nav-item" role="img" aria-label="contact">
               📩
