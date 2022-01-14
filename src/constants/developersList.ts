@@ -1,4 +1,4 @@
-import malkeetDP from "images/developers/malkeet.jpg";
+import malkeetDP from "images/developers/msd.jpeg";
 import tavishiDP from "images/developers/tavishi.jpeg";
 import rahulDP from "images/developers/rahul.jpeg";
 
