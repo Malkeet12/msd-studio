@@ -1,0 +1,16 @@
+.portfolio {
+    background-color: #fff;
+    .name {
+        color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+        background-color: #f3f5f7;
+        letter-spacing: 18px;
+        font-size: 64px;
+        margin-top: 100px;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+}

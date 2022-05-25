@@ -7,6 +7,7 @@ import AboutUs from "./components/about_us";
 import DigipaperPrivacyPolicy from "./components/apps/digipaper";
 import DrumKit from 'components/javascript30/drum_kit';
 import Sketch from 'components/javascript30/sketch';
+import DeveloperPortfolio from './components/developer_portfolio';
 
 
 class Routes extends Component {
@@ -20,7 +21,12 @@ class Routes extends Component {
                 <Switch>
                     <Route exact={true} path={RouterPathEnum.HOME} component={Home} />
                 </Switch>
-
+                <Switch>
+                    <Route
+                        path={RouterPathEnum.DEVELOPER_PORTFOLIO}
+                        component={DeveloperPortfolio}
+                    />
+                </Switch>
                 <Switch>
                     <Route
                         exact={true}
@@ -28,6 +34,7 @@ class Routes extends Component {
                         component={AboutUs}
                     />
                 </Switch>
+
 
                 <Switch>
                     <Route

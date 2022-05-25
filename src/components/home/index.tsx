@@ -1,37 +1,20 @@
-import "./index.scss";
-import React from "react";
-import ArrowDown from "images/arrow_down";
-import Logo from "images/logo.jpg";
-import { AppsList } from "constants/appsList";
-import MyApp from "./myApp";
+import './index.scss';
+import React from 'react';
 
-class Home extends React.Component {
-  _scroll = () => {
+import ArrowDown from 'images/arrow_down';
+import Logo from 'images/logo.jpg';
+import { AppsList } from 'constants/appsList';
+import MyApp from './myApp';
+
+const Home = () => {
+  const _scroll = () => {
     window.scrollBy(0, window.innerHeight);
   };
-
-  render() {
-    return (
-      <div className="home">
-        <div className="bg-layer"></div>
-        {this._buildPage1()}
-        <div className="down-arrow" onClick={this._scroll}>
-          <ArrowDown />
-        </div>
-        <div className="main">
-          {AppsList.map((app: any, index: any) => {
-            return MyApp(app, index);
-          })}
-        </div>
-      </div>
-    );
-  }
-
-  _buildPage1 = () => {
+  const _buildPage1 = () => {
     return (
       <div className="page-1">
         <div className="title">
-          <img className="logo" src={Logo} />
+          <img className="logo" src={Logo} alt="" />
         </div>
         <p className="description">
           We're a mobile apps studio in Gurgaon striving to craft meaningful
@@ -40,6 +23,21 @@ class Home extends React.Component {
       </div>
     );
   };
-}
+
+  return (
+    <div className="home">
+      <div className="bg-layer"></div>
+      {_buildPage1()}
+      <div className="down-arrow" onClick={_scroll}>
+        <ArrowDown />
+      </div>
+      <div className="main">
+        {AppsList.map((app: any, index: any) => {
+          return MyApp(app, index);
+        })}
+      </div>
+    </div>
+  );
+};
 
 export default Home;

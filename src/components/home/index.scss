@@ -1,19 +1,41 @@
-@import "src/styles/mixins.scss";
+@import 'src/styles/mixins.scss';
+@import 'src/styles/animation.scss';
+
 .home {
   .main {
     .app {
       background: #fff;
-      padding-bottom: 80px;
+      // padding-bottom: 80px;
       display: flex;
       align-items: center;
       justify-content: space-evenly;
 
       .app-image {
-        width: 50%;
+        width: 100%;
         max-width: 500px;
+        visibility: hidden;
         position: relative;
-        top: 50px;
         box-sizing: border-box;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        animation-direction: alternate;
+        animation-fill-mode: forwards;
+      }
+      &.start-animation {
+        &:nth-child(even) {
+          .app-image {
+            animation-name: animateFromRight;
+            right: -150px;
+            visibility: visible;
+          }
+        }
+        &:nth-child(odd) {
+          .app-image {
+            animation-name: animateFromLeft;
+            left: -150px;
+            visibility: visible;
+          }
+        }
       }
       .app-desc {
         display: flex;
