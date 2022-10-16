@@ -1,3 +1,3 @@
 export enum Support {
-  EMAIL = "mailto:developer@eagertools.com",
+  EMAIL = "mailto:care@msdstudio.in",
 }
